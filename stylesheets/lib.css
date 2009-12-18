@@ -1,0 +1,28 @@
+a.btn {
+  background-color: #eeeeee;
+  padding: 0.3em 0.2em;
+  color: #303030;
+  border: 1px solid #b0b0b0 #999999 #999999 #b0b0b0;
+}
+a.btn:hover { background-color: #f2f4f7; }
+a.btn:focus { background-color: #f2f4f7; }
+a.btn {
+  -moz-box-shadow: 1px 1px 2px #bbbbbb;
+  -webkit-box-shadow: 1px 1px 2px #bbbbbb;
+}
+input[type~="submit"]:not([class~="dest-action"]) {
+  -moz-box-shadow: 1px 1px 2px #bbbbbb;
+  -webkit-box-shadow: 1px 1px 2px #bbbbbb;
+}
+ul.subnav {
+  -moz-box-shadow: 1px 1px 2px #bbbbbb;
+  -webkit-box-shadow: 1px 1px 2px #bbbbbb;
+}
+input:hover { border: 1px solid #444444; }
+input:focus { border: 1px solid #444444; }
+select:hover { border: 1px solid #444444; }
+select:focus { border: 1px solid #444444; }
+textarea:hover { border: 1px solid #444444; }
+textarea:focus { border: 1px solid #444444; }
+.btn:hover { border: 1px solid #444444; }
+.btn:focus { border: 1px solid #444444; }

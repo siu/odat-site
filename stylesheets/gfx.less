@@ -1,0 +1,157 @@
+/* Layout */
+@import "screen.css";
+html, body, #page-wrapper {
+    height:100%;
+}
+body {
+    background-color: #eee;
+}
+
+a{text-decoration:none;border-bottom:solid 1px #404080;color: #404080;}
+a:hover{color:#933;border-bottom:solid 1px #933;background-color:#fff}
+a img, table input {vertical-align: text-bottom;}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h2  {
+	color:#993333;
+	color:#994444;
+}
+a.top {
+	.small;
+}
+
+@import "lib.less";
+
+#page-wrapper {
+	.container;
+}
+/* Pie inferior */
+/* técnica: http://ryanfait.com/sticky-footer/ */
+#wrapper1 {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+	border: 2px solid #ddd;
+	border-width: 0 2px;
+	background-color: #fff;
+}
+#header {
+	padding: 20px 0 30px 0;
+	.prepend-1;
+	.span-23;
+	.last;
+}
+
+#content {
+	.prepend-1;
+	.span-22;
+	.append-1;
+	.last;
+}
+#main {
+	position: relative;
+	float: left;
+}
+#sidebar, #main {
+        margin-bottom: 20px;
+    display: inline;
+float: left;
+}
+#sidebar {
+    padding-bottom: 10px;
+}
+#footer {
+	clear: both;
+	padding: 10px 0 0;
+
+	text-align: center;
+	height: 88px;
+	background-color: #eee;
+	color: #666;
+	border: 2px solid #ddd;
+	border-width:2px 2px 0;
+}
+#push {
+	height: 100px;
+}
+/* GFX */
+body {
+    color: #303030;
+    font-family: Sans, arial;
+}
+#sidebar {
+    padding: 10px;
+    background-color: #eee;
+    border-right: 1px solid #ddd;
+}
+.half {
+	.column;
+	.span-11;
+}
+#footer .logos {
+	.half;
+   text-align:right;
+}
+#footer .text {
+	.half;
+	.last;
+  	 text-align:left;
+}
+#header h1, #header h2 {
+    display: inline;
+}
+#content h2 {
+	border-bottom:1px solid #DDDDDD;
+}
+#footer p {
+	margin-bottom: 0;
+}
+#footer a {
+	color: #666;
+	border-color: #666;
+}
+#sidebar ul {
+    font-weight: bold;
+}
+#sidebar ul li {
+    margin-left: 0;
+}
+#sidebar ul li li {
+    font-weight: normal;
+    list-style-type: circle;
+}
+#enter ul {
+	text-align:center;
+	list-style-type: none;
+	padding-left: 0;
+}
+#enter ul li {
+	margin: 20px 0;
+	display:inline-block;
+	margin:10px 5px;
+}
+/* reeeep */
+#sidebar {
+	background-color: #eee;
+	border-right: 1px solid #ddd;
+}
+#header #header {
+	h1, h2 {
+		color:#994444;
+		display: inline;
+	}
+}
+#navbar {
+	background-color:#E5ECF9;
+	border-bottom:1px solid #C0C0E0;
+	display:block;
+	padding:4px 0 3px;
+}
+#logo-gat {
+	float: right;
+	margin: 0;
+	top: 0;
+	margin-right: 25px;
+}
